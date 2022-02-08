@@ -10,12 +10,17 @@ logging.basicConfig(
     level=logging.INFO)
 
 
+def perm_to_rank(systems, mean_rank):
+    return [systems[mean_rank.tolist().index(i)] for i in range(len(mean_rank))][::-1]
+
+
 def main():
     ####################
     # Common Arguments #
     ####################
     parser = argparse.ArgumentParser("Compute Different Aggregation")
-    parser.add_argument("--df_to_rank", type=str, required=True, help="dataframe to rank")
+    parser.add_argument("--df_to_rank", default="sample_df/glue.csv", type=str, required=False,
+                        help="dataframe to rank")
     parser.add_argument("--mode", type=str, default="task_level",
                         choices=['task_level', 'instance_level'],
                         help="Which level of aggregation is available")
@@ -35,14 +40,20 @@ def main():
         sys.exit(1)
 
     if args.mode == 'task_level':
+        systems = list(set(df_to_rank.Model.values.tolist()))
         mean_rank, mean_scores = mean_aggregation_task_level(df_to_rank)
         one_level_rank, one_level_borda_scores = ranking_aggregation(df_to_rank, return_count=True)
         logging.info('In our paper we advise to use the 1 level ranking')
         logging.info('Example:   [7, 2, ...] reads S0 is ranked 7th, S1 is ranked 2nd, etc')
         logging.info('Results of the mean ranking {} : {}'.format(mean_rank, mean_scores))
         logging.info('Results of the 1 level ranking {} : {}'.format(one_level_rank, one_level_borda_scores))
+
+        logging.info('*********** Final Results ***********')
+        logging.info('Mean ranking : {}'.format(perm_to_rank(systems, mean_rank)))
+        logging.info('1 level ranking : {}'.format(perm_to_rank(systems, one_level_rank)))
     elif args.mode == 'instance_level':
-        df_to_rank = df_to_rank.set_index(['System', 'Utterance']) # this step is important
+        systems = list(set(df_to_rank.System.values.tolist()))
+        df_to_rank = df_to_rank.set_index(['System', 'Utterance'])  # this step is important
         mean_rank, mean_scores = mean_aggregation_instance_level(df_to_rank)
         one_level_rank, one_level_borda_scores = direct_aggregation(df_to_rank, return_count=True)
         two_level_rank, two_level_borda_scores = two_levels_aggregation(df_to_rank, return_count=True)
@@ -52,6 +63,11 @@ def main():
         logging.info('Results of the mean ranking {} : {}'.format(mean_rank, mean_scores))
         logging.info('Results of the 1 level ranking {} : {}'.format(one_level_rank, one_level_borda_scores))
         logging.info('Results of the 2 level ranking {} : {}'.format(two_level_rank, two_level_borda_scores))
+
+        logging.info('*********** Final Results ***********')
+        logging.info('Mean ranking : {}'.format(perm_to_rank(systems, mean_rank)))
+        logging.info('1 level ranking : {}'.format(perm_to_rank(systems, one_level_rank)))
+        logging.info('2 level ranking : {}'.format(perm_to_rank(systems, two_level_rank)))
 
     else:
         raise NotImplementedError
