@@ -26,7 +26,8 @@ giving an overview of the proposed methods.
 
 ### Aggregation when Task Level Information is available
 
-![one_level_ranking_glue-1](https://user-images.githubusercontent.com/22492839/153154021-8108dfa9-b51c-44c4-8434-a65597d5c29b.png)
+<img src="https://user-images.githubusercontent.com/22492839/153154021-8108dfa9-b51c-44c4-8434-a65597d5c29b.png" alt="drawing" width="200"/>
+![one_level_ranking_glue-1]()
 ![one_level_ranking_superglue-1](https://user-images.githubusercontent.com/22492839/153154028-00f1f10b-4248-45df-81a3-30b4748a54e6.png)
 ![one_level_ranking_xtrem-1](https://user-images.githubusercontent.com/22492839/153154031-aae73e0f-0f8a-42dd-b895-7fb90dafd341.png)
 
