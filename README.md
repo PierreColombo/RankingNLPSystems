@@ -41,7 +41,7 @@ We start by giving an overview of the proposed methods.
 
 ### Aggregation when Instance Level Information is available
 
-[draw_table_2.pdf](https://github.com/PierreColombo/RankingNLPSystems/files/8030626/draw_table_2.pdf)
+xfun::embed_file("https://github.com/PierreColombo/RankingNLPSystems/files/8030626/draw_table_2.pdf")
 
 
 [two_level_ranking_FLICKR.csv.pdf](https://github.com/PierreColombo/RankingNLPSystems/files/8030650/two_level_ranking_FLICKR.csv.pdf)
