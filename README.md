@@ -19,9 +19,28 @@ This repository deals with automatic evaluation of NLG and addresses the special
 
 ## Overview
 
-We start by ![counter_example-1](https://user-images.githubusercontent.com/22492839/153153946-ea7b94cb-ed2d-496c-9c3b-bab712368191.png)
-giving an overview of the proposed methods.
-![draw_table-1](https://user-images.githubusercontent.com/22492839/153154009-3bde1420-7104-43ef-a71c-fd648cd2cc6e.png)
+### Limitations of Mean Aggregation
+
+<div align="center">
+<figure>
+    <img style="width:50%" src="https://user-images.githubusercontent.com/22492839/153153946-ea7b94cb-ed2d-496c-9c3b-bab712368191.png">
+    <div align="center">
+<figcaption> Counter Example </figcaption>
+    </div>
+</figure>
+</div>
+
+### Kemeny Conscensus based Aggregation
+
+<div align="center">
+<figure>
+    <img style="width:50%" src="https://user-images.githubusercontent.com/22492839/153154009-3bde1420-7104-43ef-a71c-fd648cd2cc6e.png">
+    <div align="center">
+<figcaption> Kemeny Conscensus </figcaption>
+    </div>
+</figure>
+</div>
+
 
 
 ### Aggregation when Task Level Information is available
@@ -32,8 +51,15 @@ giving an overview of the proposed methods.
 ![one_level_ranking_xtrem-1](https://user-images.githubusercontent.com/22492839/153154031-aae73e0f-0f8a-42dd-b895-7fb90dafd341.png)
 
 ### Toy Data
-![robust2-1](https://user-images.githubusercontent.com/22492839/153154032-3863595c-e801-4cc9-b3c5-544a97e6ad54.png)
 
+<div align="center">
+<figure>
+    <img style="width:50%" src="https://user-images.githubusercontent.com/22492839/153154032-3863595c-e801-4cc9-b3c5-544a97e6ad54.png">
+    <div align="center">
+<figcaption> Toy Example </figcaption>
+    </div>
+</figure>
+</div>
 
 
 
