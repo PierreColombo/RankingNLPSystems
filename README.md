@@ -47,15 +47,9 @@ This repository deals with automatic evaluation of NLG and addresses the special
 
 
 <div sstyle="width:100%">
-    <figure class="left" >
-    <img style="width:50%" src="https://user-images.githubusercontent.com/22492839/153154021-8108dfa9-b51c-44c4-8434-a65597d5c29b.png"/>
-    <img style="width:50%" src="https://user-images.githubusercontent.com/22492839/153154009-3bde1420-7104-43ef-a71c-fd648cd2cc6e.png">
+    <img class="left"  style="width:50%" src="https://user-images.githubusercontent.com/22492839/153154021-8108dfa9-b51c-44c4-8434-a65597d5c29b.png"/>
+    <img class="right" style="width:50%" src="https://user-images.githubusercontent.com/22492839/153154009-3bde1420-7104-43ef-a71c-fd648cd2cc6e.png">
     <figcaption> Fig1. Production value and quantity of the 10 top commodities </figcaption>
-    </figure>
-    <figure class="right">
-    <img class="average" style="width:50%" src="https://user-images.githubusercontent.com/22492839/153154021-8108dfa9-b51c-44c4-8434-a65597d5c29b.png"/>
-    <figcaption> Fig2. Averages per metric ton </figcaption>
-    </figure>
 </div>
 
 <figure class="left">
