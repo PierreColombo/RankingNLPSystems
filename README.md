@@ -46,14 +46,14 @@ This repository deals with automatic evaluation of NLG and addresses the special
 ### Aggregation when Task Level Information is available
 
 
-<div style="width:1000px">
-    <figure class="left" style="float:left">
-    <img class="top" src="https://user-images.githubusercontent.com/22492839/153154021-8108dfa9-b51c-44c4-8434-a65597d5c29b.png" width="400" height="300"/>
+<div sstyle="width:100%">
+    <figure class="left" >
+    <img class="top" style="width:50%" src="https://user-images.githubusercontent.com/22492839/153154021-8108dfa9-b51c-44c4-8434-a65597d5c29b.png"/>
     <figcaption> Fig1. Production value and quantity of the 10 top commodities </figcaption>
     </figure>
 
-    <figure class="right" style="float:right">
-    <img class="average" src="https://user-images.githubusercontent.com/22492839/153154021-8108dfa9-b51c-44c4-8434-a65597d5c29b.png" width="400" height="300"/>
+    <figure class="right">
+    <img class="average" style="width:50%" src="https://user-images.githubusercontent.com/22492839/153154021-8108dfa9-b51c-44c4-8434-a65597d5c29b.png"/>
     <figcaption> Fig2. Averages per metric ton </figcaption>
     </figure>
 </div>
