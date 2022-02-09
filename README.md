@@ -21,33 +21,30 @@ This repository deals with automatic evaluation of NLG and addresses the special
 
 We start by ![counter_example-1](https://user-images.githubusercontent.com/22492839/153153946-ea7b94cb-ed2d-496c-9c3b-bab712368191.png)
 giving an overview of the proposed methods.
-
-[counter_example.pdf](https://github.com/PierreColombo/RankingNLPSystems/files/8030618/counter_example.pdf)
-
-[draw_table.pdf](https://github.com/PierreColombo/RankingNLPSystems/files/8030621/draw_table.pdf)
-
-### Toy Data
-
-[robust2.pdf](https://github.com/PierreColombo/RankingNLPSystems/files/8030632/robust2.pdf)
+![draw_table-1](https://user-images.githubusercontent.com/22492839/153154009-3bde1420-7104-43ef-a71c-fd648cd2cc6e.png)
 
 
 ### Aggregation when Task Level Information is available
 
+![one_level_ranking_glue-1](https://user-images.githubusercontent.com/22492839/153154021-8108dfa9-b51c-44c4-8434-a65597d5c29b.png)
+![one_level_ranking_superglue-1](https://user-images.githubusercontent.com/22492839/153154028-00f1f10b-4248-45df-81a3-30b4748a54e6.png)
+![one_level_ranking_xtrem-1](https://user-images.githubusercontent.com/22492839/153154031-aae73e0f-0f8a-42dd-b895-7fb90dafd341.png)
 
-[one_level_ranking_glue.pdf](https://github.com/PierreColombo/RankingNLPSystems/files/8030643/one_level_ranking_glue.pdf)
-[one_level_ranking_superglue.pdf](https://github.com/PierreColombo/RankingNLPSystems/files/8030644/one_level_ranking_superglue.pdf)
-[one_level_ranking_xtrem.pdf](https://github.com/PierreColombo/RankingNLPSystems/files/8030645/one_level_ranking_xtrem.pdf)
+### Toy Data
+![robust2-1](https://user-images.githubusercontent.com/22492839/153154032-3863595c-e801-4cc9-b3c5-544a97e6ad54.png)
+
+
+
 
 
 
 ### Aggregation when Instance Level Information is available
 
+![draw_table_2-1](https://user-images.githubusercontent.com/22492839/153154016-a9848d0d-7eaf-4526-82dc-634e1b1e4fdf.png)
 
-[draw_table_2.pdf](https://github.com/PierreColombo/RankingNLPSystems/files/8030626/draw_table_2.pdf)
-[two_level_ranking_FLICKR.csv.pdf](https://github.com/PierreColombo/RankingNLPSystems/files/8030650/two_level_ranking_FLICKR.csv.pdf)
-[two_level_ranking_REAL_SUM.csv.pdf](https://github.com/PierreColombo/RankingNLPSystems/files/8030653/two_level_ranking_REAL_SUM.csv.pdf)
-[two_level_ranking_DIALOG_pc.csv.pdf](https://github.com/PierreColombo/RankingNLPSystems/files/8030655/two_level_ranking_DIALOG_pc.csv.pdf)
-
+![two_level_ranking_DIALOG_pc csv-1](https://user-images.githubusercontent.com/22492839/153154035-369da055-573c-4bad-9b55-31c90dd83c2c.png)
+![two_level_ranking_FLICKR csv-1](https://user-images.githubusercontent.com/22492839/153154038-d8cd9570-0692-44f4-8dd8-0d02692bf09d.png)
+![two_level_ranking_REAL_SUM csv-1](https://user-images.githubusercontent.com/22492839/153154042-adddccdc-81a7-46cf-91d0-9c9d18fffe08.png)
 
 
 
