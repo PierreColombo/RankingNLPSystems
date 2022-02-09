@@ -19,7 +19,8 @@ This repository deals with automatic evaluation of NLG and addresses the special
 
 ## Overview
 
-We start by giving an overview of the proposed methods.
+We start by ![counter_example-1](https://user-images.githubusercontent.com/22492839/153153946-ea7b94cb-ed2d-496c-9c3b-bab712368191.png)
+giving an overview of the proposed methods.
 
 [counter_example.pdf](https://github.com/PierreColombo/RankingNLPSystems/files/8030618/counter_example.pdf)
 
