@@ -21,32 +21,35 @@ This repository deals with automatic evaluation of NLG and addresses the special
 
 We start by giving an overview of the proposed methods.
 
+[counter_example.pdf](https://github.com/PierreColombo/RankingNLPSystems/files/8030618/counter_example.pdf)
+
+[draw_table.pdf](https://github.com/PierreColombo/RankingNLPSystems/files/8030621/draw_table.pdf)
+
+### Toy Data
+
+[robust2.pdf](https://github.com/PierreColombo/RankingNLPSystems/files/8030632/robust2.pdf)
+
+
 ### Aggregation when Task Level Information is available
 
 
+[one_level_ranking_glue.pdf](https://github.com/PierreColombo/RankingNLPSystems/files/8030643/one_level_ranking_glue.pdf)
+[one_level_ranking_superglue.pdf](https://github.com/PierreColombo/RankingNLPSystems/files/8030644/one_level_ranking_superglue.pdf)
+[one_level_ranking_xtrem.pdf](https://github.com/PierreColombo/RankingNLPSystems/files/8030645/one_level_ranking_xtrem.pdf)
 
-<div align="center">
-<figure>
-    <img style="width:50%" src="images/.png">
-    <div align="center">
-<figcaption> Depth Score </figcaption>
-    </div>
-</figure>
-</div>
 
 
 ### Aggregation when Instance Level Information is available
 
+[draw_table_2.pdf](https://github.com/PierreColombo/RankingNLPSystems/files/8030626/draw_table_2.pdf)
 
 
-<div align="center">
-<figure>
-    <img style="width:50%" src="images/.png">
-    <div align="center">
-<figcaption> Depth Score </figcaption>
-    </div>
-</figure>
-</div>
+[two_level_ranking_FLICKR.csv.pdf](https://github.com/PierreColombo/RankingNLPSystems/files/8030650/two_level_ranking_FLICKR.csv.pdf)
+[two_level_ranking_REAL_SUM.csv.pdf](https://github.com/PierreColombo/RankingNLPSystems/files/8030653/two_level_ranking_REAL_SUM.csv.pdf)
+[two_level_ranking_DIALOG_pc.csv.pdf](https://github.com/PierreColombo/RankingNLPSystems/files/8030655/two_level_ranking_DIALOG_pc.csv.pdf)
+
+
+
 
 ### Reproducing the paper results
 
