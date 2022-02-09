@@ -44,7 +44,11 @@ This repository deals with automatic evaluation of NLG and addresses the special
 
 
 ### Aggregation when Task Level Information is available
-
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/22492839/153154021-8108dfa9-b51c-44c4-8434-a65597d5c29b.png" width="100" />
+  <img src="https://user-images.githubusercontent.com/22492839/153154021-8108dfa9-b51c-44c4-8434-a65597d5c29b.png" width="100" /> 
+  <img src="https://user-images.githubusercontent.com/22492839/153154021-8108dfa9-b51c-44c4-8434-a65597d5c29b.png" width="100" />
+</p>
 
 <div sstyle="width:100%">
     <img class="left"  style="width:50%" src="https://user-images.githubusercontent.com/22492839/153154021-8108dfa9-b51c-44c4-8434-a65597d5c29b.png"/>
