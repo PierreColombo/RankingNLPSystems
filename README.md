@@ -45,7 +45,26 @@ This repository deals with automatic evaluation of NLG and addresses the special
 
 ### Aggregation when Task Level Information is available
 
-<img src="https://user-images.githubusercontent.com/22492839/153154021-8108dfa9-b51c-44c4-8434-a65597d5c29b.png" alt="drawing" width="100"/>
+
+<div align="center">
+<figure>
+    <img style="width:50%" src="https://user-images.githubusercontent.com/22492839/153154021-8108dfa9-b51c-44c4-8434-a65597d5c29b.png">
+    <div align="center">
+<figcaption> Two level Aggregation Mechanism </figcaption>
+    </div>
+</figure>
+</div>
+
+<figure class="left">
+  <img class="top" src="https://user-images.githubusercontent.com/22492839/153154021-8108dfa9-b51c-44c4-8434-a65597d5c29b.png" width="400" height="300"/>
+  <figcaption> Fig1. Production value and quantity of the 10 top commodities </figcaption>
+</figure>
+
+<figure class="right">
+  <img class="average" src="https://user-images.githubusercontent.com/22492839/153154028-00f1f10b-4248-45df-81a3-30b4748a54e6.png" width="400" height="300"/>
+  <figcaption> Fig2. Averages per metric ton </figcaption>
+</figure>
+
 ![one_level_ranking_glue-1]()
 ![one_level_ranking_superglue-1](https://user-images.githubusercontent.com/22492839/153154028-00f1f10b-4248-45df-81a3-30b4748a54e6.png)
 ![one_level_ranking_xtrem-1](https://user-images.githubusercontent.com/22492839/153154031-aae73e0f-0f8a-42dd-b895-7fb90dafd341.png)
