@@ -36,7 +36,7 @@ This repository deals with automatic evaluation of NLG and addresses the special
 <figure>
     <img style="width:50%" src="https://user-images.githubusercontent.com/22492839/153154009-3bde1420-7104-43ef-a71c-fd648cd2cc6e.png">
     <div align="center">
-<figcaption> Kemeny Conscensus </figcaption>
+<figcaption> Kemeny Conscensus when Task Level Information is available </figcaption>
     </div>
 </figure>
 </div>
@@ -61,7 +61,8 @@ This repository deals with automatic evaluation of NLG and addresses the special
 ### Robustness Analysis
 <div align="center">
 <figure>
-<img width="691" alt="image" src="https://user-images.githubusercontent.com/22492839/157666912-09dbe8b4-da95-48e1-b054-2a35f7b41b15.png">
+<img  style="width:50%"  src="https://user-images.githubusercontent.com/22492839/157666912-09dbe8b4-da95-48e1-b054-2a35f7b41b15.png">
+        <div align="center">
 <figcaption> Robustness Analysis </figcaption>
     </div>
 </figure>
@@ -72,7 +73,8 @@ This repository deals with automatic evaluation of NLG and addresses the special
 
 <div align="center">
 <figure>
-<img width="1024" alt="image" src="https://user-images.githubusercontent.com/22492839/157666940-4dc58b96-45a0-4a3f-80e3-50e29cc40fb2.png">
+<img  style="width:50%"  src="https://user-images.githubusercontent.com/22492839/157666940-4dc58b96-45a0-4a3f-80e3-50e29cc40fb2.png">
+        <div align="center">
 <figcaption> Ranking Analysis </figcaption>
     </div>
 </figure>
@@ -82,16 +84,38 @@ This repository deals with automatic evaluation of NLG and addresses the special
 
 ## Aggregation when Instance Level Information is available
 
-![draw_table_2-1](https://user-images.githubusercontent.com/22492839/153154016-a9848d0d-7eaf-4526-82dc-634e1b1e4fdf.png)
 
+<div align="center">
+<figure>
+    <img style="width:50%" src="https://user-images.githubusercontent.com/22492839/153154016-a9848d0d-7eaf-4526-82dc-634e1b1e4fdf.png">
+    <div align="center">
+<figcaption> Kemeny Conscensus when Task Level Information is available </figcaption>
+    </div>
+</figure>
+</div>
 
 ### Robustness Analysis
 
-<img width="1269" alt="image" src="https://user-images.githubusercontent.com/22492839/157667196-1698a4ec-df22-4d7a-8a9b-4ac11eadff60.png">
+
+<div align="center">
+<figure>
+<img  style="width:50%"   src="https://user-images.githubusercontent.com/22492839/157667196-1698a4ec-df22-4d7a-8a9b-4ac11eadff60.png">
+        <div align="center">
+<figcaption> Robustness Analysis With Instance Level Information </figcaption>
+    </div>
+</figure>
+</div>
 
 ### Rank Analysis
 
-<img width="853" alt="image" src="https://user-images.githubusercontent.com/22492839/157667235-5bd3260c-78fc-408f-842a-668fb2b3213a.png">
+<div align="center">
+<figure>
+<img  style="width:50%"   src="https://user-images.githubusercontent.com/22492839/157667235-5bd3260c-78fc-408f-842a-668fb2b3213a.png">
+        <div align="center">
+<figcaption> Ranking Analysis With Instance Level Information </figcaption>
+    </div>
+</figure>
+</div>
 
 
 
