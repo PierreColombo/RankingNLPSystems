@@ -13,8 +13,9 @@ In Machine Learning, a benchmark refers to an ensemble of datasets associated wi
 
 ## Goal :
 
-This repository deals with automatic evaluation of NLG and addresses the special case of reference based evaluation. The goal is to build a metric m: <img src="https://render.githubusercontent.com/render/math?math=m : \mathcal{S} \times \mathcal{S} \rightarrow \mathcal{R}"> where <img src="https://render.githubusercontent.com/render/math?math=m : \mathcal{S}"> is the space of sentences. An example is given below:
+This repository aims at answering the question What are the best systems? when given a table of score. Concretly, we aim at finding an aggregation procedure that orders the systems and that is better than the widely used mean average. We propose to use the Borda Count.
 
+This repository provide a CLI tool to do that in a seconde.
 
 
 ## Overview
