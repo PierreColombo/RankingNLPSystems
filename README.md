@@ -44,27 +44,6 @@ This repository deals with automatic evaluation of NLG and addresses the special
 
 
 ### Aggregation when Task Level Information is available
-<p float="left">
-  <img src="https://user-images.githubusercontent.com/22492839/153154021-8108dfa9-b51c-44c4-8434-a65597d5c29b.png" width="100" />
-  <img src="https://user-images.githubusercontent.com/22492839/153154021-8108dfa9-b51c-44c4-8434-a65597d5c29b.png" width="100" /> 
-  <img src="https://user-images.githubusercontent.com/22492839/153154021-8108dfa9-b51c-44c4-8434-a65597d5c29b.png" width="100" />
-</p>
-
-<div sstyle="width:100%">
-    <img class="left"  style="width:50%" src="https://user-images.githubusercontent.com/22492839/153154021-8108dfa9-b51c-44c4-8434-a65597d5c29b.png"/>
-    <img class="right" style="width:50%" src="https://user-images.githubusercontent.com/22492839/153154009-3bde1420-7104-43ef-a71c-fd648cd2cc6e.png">
-    <figcaption> Fig1. Production value and quantity of the 10 top commodities </figcaption>
-</div>
-
-<figure class="left">
-  <img class="top" src="https://user-images.githubusercontent.com/22492839/153154021-8108dfa9-b51c-44c4-8434-a65597d5c29b.png" style="width:50%"/>
-  <figcaption> SuperGLUE </figcaption>
-</figure>
-
-<figure class="right">
-  <img class="average" src="https://user-images.githubusercontent.com/22492839/153154028-00f1f10b-4248-45df-81a3-30b4748a54e6.png" style="width:50%"/>
-  <figcaption> XTREM </figcaption>
-</figure>
 
 
 ### Toy Data
@@ -79,20 +58,44 @@ This repository deals with automatic evaluation of NLG and addresses the special
 </div>
 
 
+### Robustness Analysis
+<div align="center">
+<figure>
+<img width="691" alt="image" src="https://user-images.githubusercontent.com/22492839/157666912-09dbe8b4-da95-48e1-b054-2a35f7b41b15.png">
+<figcaption> Robustness Analysis </figcaption>
+    </div>
+</figure>
+</div>
+
+
+### Ranking Analysis
+
+<div align="center">
+<figure>
+<img width="1024" alt="image" src="https://user-images.githubusercontent.com/22492839/157666940-4dc58b96-45a0-4a3f-80e3-50e29cc40fb2.png">
+<figcaption> Ranking Analysis </figcaption>
+    </div>
+</figure>
+</div>
 
 
 
-### Aggregation when Instance Level Information is available
+## Aggregation when Instance Level Information is available
 
 ![draw_table_2-1](https://user-images.githubusercontent.com/22492839/153154016-a9848d0d-7eaf-4526-82dc-634e1b1e4fdf.png)
 
-![two_level_ranking_DIALOG_pc csv-1](https://user-images.githubusercontent.com/22492839/153154035-369da055-573c-4bad-9b55-31c90dd83c2c.png)
-![two_level_ranking_FLICKR csv-1](https://user-images.githubusercontent.com/22492839/153154038-d8cd9570-0692-44f4-8dd8-0d02692bf09d.png)
-![two_level_ranking_REAL_SUM csv-1](https://user-images.githubusercontent.com/22492839/153154042-adddccdc-81a7-46cf-91d0-9c9d18fffe08.png)
+
+### Robustness Analysis
+
+<img width="1269" alt="image" src="https://user-images.githubusercontent.com/22492839/157667196-1698a4ec-df22-4d7a-8a9b-4ac11eadff60.png">
+
+### Rank Analysis
+
+<img width="853" alt="image" src="https://user-images.githubusercontent.com/22492839/157667235-5bd3260c-78fc-408f-842a-668fb2b3213a.png">
 
 
 
-### Reproducing the paper results
+## Reproducing the paper results
 
 See notebooks.
 
@@ -102,13 +105,12 @@ See notebooks.
 If you find this repo useful, please cite our papers:
 
 ```
-@article{,
-  title={},
-  author={},
-  journal={},
+@article{colombo2022best,
+  title={What are the best systems? New perspectives on NLP Benchmarking},
+  author={Colombo, Pierre and Noiry, Nathan and Irurozki, Ekhine and Clemencon, Stephan},
+  journal={arXiv preprint arXiv:2202.03799},
   year={2022}
 }
-
 ```
 
 ## Usage
