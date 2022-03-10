@@ -89,28 +89,6 @@ The second setting of interrest is when for every n, every t and every k, access
 </figure>
 </div>
 
-### Robustness Analysis
-
-
-<div align="center">
-<figure>
-<img  style="width:50%"   src="https://user-images.githubusercontent.com/22492839/157667196-1698a4ec-df22-4d7a-8a9b-4ac11eadff60.png">
-        <div align="center">
-<figcaption> Robustness Analysis With Instance Level Information </figcaption>
-    </div>
-</figure>
-</div>
-
-### Rank Analysis
-
-<div align="center">
-<figure>
-<img  style="width:50%"   src="https://user-images.githubusercontent.com/22492839/157667235-5bd3260c-78fc-408f-842a-668fb2b3213a.png">
-        <div align="center">
-<figcaption> Ranking Analysis With Instance Level Information </figcaption>
-    </div>
-</figure>
-</div>
 
 
 
