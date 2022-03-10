@@ -22,6 +22,12 @@ This repository deals with automatic evaluation of NLG and addresses the special
 ### Limitations of Mean Aggregation
 
 
+Taking the mean aggregation, is seriously flawed since the differen metrics on different task are usually not on the same scales and can even be unbounded. Thus even a pre-processing renormalization scheme would fail to capture the intrinsic difficulty of the tasks.
+
+A naive alternative is to rely on pairwise ranking. However, the example below shows that pairwise rankings can be paradoxical.
+Mean aggregation outputs A > B > C while pairwise ranking considered fails to rank the systems and produce B > A, C > B, A = C. Our method does not have this flaw and outputs C > B > A.
+
+
 
 <div align="center">
 <figure>
@@ -32,7 +38,11 @@ This repository deals with automatic evaluation of NLG and addresses the special
 </figure>
 </div>
 
-### Kemeny Conscensus based Aggregation
+### Ranking when Task Level information is available using Kemeny Conscencus
+
+
+In this setting, one has access to the scores of N systems across T tasks. Each task t being associated with a metric and a test set. For every n and every t, we  only have access to the aggregated performance of system n on task t
+
 
 <div align="center">
 <figure>
@@ -43,35 +53,16 @@ This repository deals with automatic evaluation of NLG and addresses the special
 </figure>
 </div>
 
+When using ranking to aggregate the score a natural choice is to rely on Kemeny consensus aggregation. This procedure is the only rule that satisfies three natural properties: neutrality, meaning that it does not depend on the order of the tasks; consistency, and the Condorcet criterion, meaning that an item
+wining all its pairwise comparison is ranked fist. Moreover,
+the Kemeny consensus is also the maximum likelihood of
+the widely-used Mallows statistical on the symmetric group.
 
-
-### Aggregation when Task Level Information is available
-
-
-### Toy Data
-
-<div align="center">
-<figure>
-    <img style="width:50%" src="https://user-images.githubusercontent.com/22492839/153154032-3863595c-e801-4cc9-b3c5-544a97e6ad54.png">
-    <div align="center">
-<figcaption> Toy Example </figcaption>
-    </div>
-</figure>
-</div>
-
-
-### Robustness Analysis
-<div align="center">
-<figure>
-<img  style="width:50%"  src="https://user-images.githubusercontent.com/22492839/157666912-09dbe8b4-da95-48e1-b054-2a35f7b41b15.png">
-        <div align="center">
-<figcaption> Robustness Analysis </figcaption>
-    </div>
-</figure>
-</div>
 
 
 ### Ranking Analysis
+
+Our method can be used to rank models. As you can see below on two famous NLP benchmark when changing the aggregation function, the response to our initial question ”what are the best systems?” varies.
 
 <div align="center">
 <figure>
@@ -85,6 +76,8 @@ This repository deals with automatic evaluation of NLG and addresses the special
 
 
 ## Aggregation when Instance Level Information is available
+
+The second setting of interrest is when for every n, every t and every k, access to the aggregated performance of system n on instance k of task t. In this setting, we recommand to do 2 levels of Borda count. 
 
 
 <div align="center">
