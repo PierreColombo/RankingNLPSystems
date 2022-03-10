@@ -15,7 +15,7 @@ In Machine Learning, a benchmark refers to an ensemble of datasets associated wi
 
 This repository aims at answering the question What are the best systems? when given a table of score. Concretly, we aim at finding an aggregation procedure that orders the systems and that is better than the widely used mean average. We propose to use the Borda Count.
 
-This repository provide a CLI tool to do that in a seconde.
+This repository provide a CLI tool to do that while requiring a single CPU.
 
 
 ## Overview
