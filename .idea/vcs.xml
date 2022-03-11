@@ -3,6 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/RankingNLPSystems" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/datacraft/nlg_eval_via_simi_measures" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/top-k-mallows" vcs="Git" />
   </component>
 </project>
