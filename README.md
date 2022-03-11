@@ -1,5 +1,6 @@
 # What are the best Systems? New Perspectives on NLP Benchmarking
 
+
 In Machine Learning, a benchmark refers to an ensemble of datasets associated with one or multiple metrics together with a way to aggregate different systems performances. They are instrumental in  
 
 (i)  assessing the progress of new methods along different axes 
@@ -21,6 +22,10 @@ We provide here a CLI tool to provide an alternative to mean aggregation.
 * [Pierre Colombo](https://scholar.google.com/citations?user=yPoMt8gAAAAJ&hl=fr)
 * [Nathan Noiry](https://noiry.perso.math.cnrs.fr/)
 * [Ekhine Irurozki](https://scholar.google.com/citations?user=thlVrqIAAAAJ&hl=es)
+
+## Presentations :
+
+In the folder datacraft you will find the presentation given the 11/03 as well as a notebook full of toy examples!
 
 ## Goal :
 
@@ -149,6 +154,10 @@ python ranking_cli.py --df_to_rank=$PATH_TO_DF_TO_RANK --mode=$MODE
 ```
 
 See more options by `python score_cli.py -h`.
+
+## Others
+
+Please feel free to give any feedback and open issues.
 
 
 ## Acknowledgements
