@@ -40,7 +40,7 @@ def main():
         sys.exit(1)
 
     if args.mode == 'task_level':
-        systems = list(set(df_to_rank.Model.values.tolist()))
+        systems = df_to_rank.Model.values.tolist()
         mean_rank, mean_scores = mean_aggregation_task_level(df_to_rank)
         one_level_rank, one_level_borda_scores = ranking_aggregation(df_to_rank, return_count=True)
         logging.info('In our paper we advise to use the 1 level ranking')
@@ -52,7 +52,7 @@ def main():
         logging.info('Mean ranking : {}'.format(perm_to_rank(systems, mean_rank)))
         logging.info('1 level ranking : {}'.format(perm_to_rank(systems, one_level_rank)))
     elif args.mode == 'instance_level':
-        systems = list(set(df_to_rank.System.values.tolist()))
+        systems = df_to_rank.System.values.tolist()
         df_to_rank = df_to_rank.set_index(['System', 'Utterance'])  # this step is important
         mean_rank, mean_scores = mean_aggregation_instance_level(df_to_rank)
         one_level_rank, one_level_borda_scores = direct_aggregation(df_to_rank, return_count=True)
