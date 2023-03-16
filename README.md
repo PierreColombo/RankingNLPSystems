@@ -29,7 +29,7 @@ In the folder datacraft you will find the presentation given the 11/03 as well a
 
 ## Goal :
 
-This repository aims at answering the question What are the best systems? when given a table of score. Concretly, we aim at finding an aggregation procedure that orders the systems and that is better than the widely used mean average. We propose to use the Borda Count.
+This repository aims at answering the question What are the best systems? when given a table of score. Concretely, we aim at finding an aggregation procedure that orders the systems and that is better than the widely used mean average. We propose to use the Borda Count.
 
 This repository provide a CLI tool to do that while requiring a single CPU.
 
@@ -39,7 +39,7 @@ This repository provide a CLI tool to do that while requiring a single CPU.
 ### Limitations of Mean Aggregation
 
 
-Taking the mean aggregation, is seriously flawed since the differen metrics on different task are usually not on the same scales and can even be unbounded. Thus even a pre-processing renormalization scheme would fail to capture the intrinsic difficulty of the tasks.
+Taking the mean aggregation, is seriously flawed since the different metrics on different task are usually not on the same scales and can even be unbounded. Thus even a pre-processing renormalization scheme would fail to capture the intrinsic difficulty of the tasks.
 
 A naive alternative is to rely on pairwise ranking. However, the example below shows that pairwise rankings can be paradoxical.
 Mean aggregation outputs A > B > C while pairwise ranking considered fails to rank the systems and produce B > A, C > B, A = C. Our method does not have this flaw and outputs C > B > A.
@@ -55,7 +55,7 @@ Mean aggregation outputs A > B > C while pairwise ranking considered fails to ra
 </figure>
 </div>
 
-### Ranking when Task Level information is available using Kemeny Conscencus
+### Ranking when Task Level information is available using Kemeny Consensus
 
 
 In this setting, one has access to the scores of N systems across T tasks. Each task t being associated with a metric and a test set. For every n and every t, we  only have access to the aggregated performance of system n on task t
@@ -94,14 +94,14 @@ Our method can be used to rank models. As you can see below on two famous NLP be
 
 ## Aggregation when Instance Level Information is available
 
-The second setting of interrest is when for every n, every t and every k, access to the aggregated performance of system n on instance k of task t. In this setting, we recommand to do 2 levels of Borda count. 
+The second setting of interest is when for every n, every t and every k, access to the aggregated performance of system n on instance k of task t. In this setting, we recommend to do 2 levels of Borda count. 
 
 
 <div align="center">
 <figure>
     <img style="width:50%" src="https://user-images.githubusercontent.com/22492839/153154016-a9848d0d-7eaf-4526-82dc-634e1b1e4fdf.png">
     <div align="center">
-<figcaption> Kemeny Conscensus when Task Level Information is available </figcaption>
+<figcaption> Kemeny Consensus when Task Level Information is available </figcaption>
     </div>
 </figure>
 </div>
@@ -164,5 +164,5 @@ Please feel free to give any feedback and open issues.
 
 This work was granted access
 to the HPC resources of IDRIS under the allocation 2021-
-101838 made by GENCI. Nathan is funded by the projet
+101838 made by GENCI. Nathan is funded by the project
 ANR LIMPID.
